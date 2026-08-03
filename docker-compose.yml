@@ -8,6 +8,6 @@ services:
     command: >
       trade
       --logfile /freqtrade/user_data/logs/freqtrade.log
-      --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite
+      --db-url postgresql+psycopg2://superadmin:f_QS2x.umnP5Uv%5B@brota-db-uk2dxl:5432/freqtrade
       --config /freqtrade/user_data/config.json
       --strategy SampleStrategy
